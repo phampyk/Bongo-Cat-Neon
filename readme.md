@@ -1,7 +1,7 @@
 # LinkStack Bongo Cat Neon Theme
 Find more themes: https://github.com/JulianPrieber/llc-themes
                                                                                                                                                                          
-*	Theme Name: Bongo Cat
+*	Theme Name: Bongo Cat Neon
 *	Theme Version: 1.6
 *	Theme Date: 2022-09-22
 *	Theme Author: JulianPrieber & MagicLike & LinkStack Team & phampyk
