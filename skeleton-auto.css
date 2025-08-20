@@ -65,7 +65,7 @@ html {
   --bgColor: #223344;
   --bgColor2: #090a0f;
   --accentColor: #FFF;
-  --font: 'comic', sans-serif;
+  --font: 'fragmentcore', sans-serif;
   --delay: .3s; }
 
 /* Background
@@ -123,10 +123,12 @@ h1 {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 100;
-color: #a5ea9b;
-font-size: 400% !important; 
-line-height: 64px; 
-letter-spacing: 5px !important;}
+  color: #a5ea9b;
+  font-size: 300% !important; 
+  line-height: 95px; 
+  letter-spacing: 0px !important;
+  font-family: zschusch;
+}
 
 
 /* Larger than phablet */
@@ -136,10 +138,12 @@ letter-spacing: 5px !important;}
 
 p {
   margin-top: 0;
-color: #ffcc81;
-font-size: 130% !important; 
-width: 100% !important;
-letter-spacing: 3px !important; }
+  color: #ffcc81;
+  font-size: 60% !important;
+  line- height: 25px;
+  width: 100% !important;
+  letter-spacing: 0px !important;
+}
 
 
 /* Links
@@ -177,7 +181,11 @@ pre > code {
 button,
 .button {
   margin-bottom: 1rem;
-  display: block !important; }
+  display: block !important;
+  font-family: love;
+  font-size: 80%;
+  letter-spacing: 0em !important;
+}
 input,
 textarea,
 select,
@@ -189,7 +197,7 @@ dl,
 figure,
 p,
 ol {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 0rem; }
 
 
 /* Utilities
