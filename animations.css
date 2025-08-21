@@ -45,18 +45,37 @@
     animation-name: fadein;
     animation-duration: 3s;
     animation-fill-mode: both;
+    animation: fadein 3s forwards, colorBlend 30s infinite alternate forwards;
   }
 
 @keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
+@keyframes colorBlend {
+  0%   { color: #d6b15c; text-shadow: 0 0 5px rgba(214,177,92,0.6), 0 0 10px rgba(214,177,92,0.4); }
+  5%   { color: #d6a55c; text-shadow: 0 0 5px rgba(214,165,92,0.6), 0 0 10px rgba(214,165,92,0.4); }
+  10%  { color: #d66c5c; text-shadow: 0 0 5px rgba(214,108,92,0.6), 0 0 10px rgba(214,108,92,0.4); }
+  15%  { color: #d65c6c; text-shadow: 0 0 5px rgba(214,92,108,0.6), 0 0 10px rgba(214,92,108,0.4); }
+  20%  { color: #c65cd6; text-shadow: 0 0 5px rgba(198,92,214,0.6), 0 0 10px rgba(198,92,214,0.4); }
+  25%  { color: #b15cd6; text-shadow: 0 0 5px rgba(177,92,214,0.6), 0 0 10px rgba(177,92,214,0.4); }
+  30%  { color: #a55cd6; text-shadow: 0 0 5px rgba(165,92,214,0.6), 0 0 10px rgba(165,92,214,0.4); }
+  35%  { color: #785cd6; text-shadow: 0 0 5px rgba(120,92,214,0.6), 0 0 10px rgba(120,92,214,0.4); }
+  40%  { color: #5c68d6; text-shadow: 0 0 5px rgba(92,104,214,0.6), 0 0 10px rgba(92,104,214,0.4); }
+  45%  { color: #5c91d6; text-shadow: 0 0 5px rgba(92,145,214,0.6), 0 0 10px rgba(92,145,214,0.4); }
+  50%  { color: #5c9fd6; text-shadow: 0 0 5px rgba(92,159,214,0.6), 0 0 10px rgba(92,159,214,0.4); }
+  55%  { color: #5c93d6; text-shadow: 0 0 5px rgba(92,147,214,0.6), 0 0 10px rgba(92,147,214,0.4); }
+  60%  { color: #5cb4d6; text-shadow: 0 0 5px rgba(92,180,214,0.6), 0 0 10px rgba(92,180,214,0.4); }
+  65%  { color: #5cabd6; text-shadow: 0 0 5px rgba(92,171,214,0.6), 0 0 10px rgba(92,171,214,0.4); }
+  70%  { color: #5cd695; text-shadow: 0 0 5px rgba(92,214,149,0.6), 0 0 10px rgba(92,214,149,0.4); }
+  75%  { color: #6ed65c; text-shadow: 0 0 5px rgba(110,214,92,0.6), 0 0 10px rgba(110,214,92,0.4); }
+  80%  { color: #83d65c; text-shadow: 0 0 5px rgba(131,214,92,0.6), 0 0 10px rgba(131,214,92,0.4); }
+  85%  { color: #ced65c; text-shadow: 0 0 5px rgba(206,214,92,0.6), 0 0 10px rgba(206,214,92,0.4); }
+  90%  { color: #d6b15c; text-shadow: 0 0 5px rgba(214,177,92,0.6), 0 0 10px rgba(214,177,92,0.4); }
+  95%  { color: #d6b15c; text-shadow: 0 0 5px rgba(214,177,92,0.6), 0 0 10px rgba(214,177,92,0.4); }
+  100% { color: #d6b15c; text-shadow: 0 0 5px rgba(214,177,92,0.6), 0 0 10px rgba(214,177,92,0.4); }
+}
 
 /* Button hover animations
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
